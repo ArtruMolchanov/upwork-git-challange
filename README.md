@@ -33,3 +33,99 @@ git rebase --continue
 git push
 merge with master
 ```
+
+##Result
+```
+git log
+commit 2bd7712718712115a1527db2eb53321d06e11e19 (HEAD -> master)
+Author: David Guttman <david@davidguttman.com>
+Date:   Thu Oct 3 16:34:57 2019 -0700
+
+    docs: add more instructions
+
+commit 08d29e7151cdcaf519aae67bb4bffeb7593ed596
+Author: David Guttman <david@davidguttman.com>
+Date:   Thu Oct 3 16:34:47 2019 -0700
+
+    chore: update deps
+
+commit 744a0f1a5ca3566115320f62c23d76214566f7b5
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Mar 5 09:08:50 2018 -0800
+
+    docs: update readme for git challenge
+
+commit 6de04176b50911db13d6cf46d30e1e6b3629bcff
+Author: David Guttman <david@davidguttman.com>
+Date:   Wed Sep 20 16:11:45 2017 -0700
+
+    fix: change db path to project folder (#21)
+
+    closes #21
+
+commit 8722c121965408c2dd9c76e8f9a73f54ba3f92b9
+Author: David Guttman <david@davidguttman.com>
+Date:   Wed Sep 20 16:08:56 2017 -0700
+:...skipping...
+commit 2bd7712718712115a1527db2eb53321d06e11e19 (HEAD -> master)
+Author: David Guttman <david@davidguttman.com>
+Date:   Thu Oct 3 16:34:57 2019 -0700
+
+    docs: add more instructions
+
+commit 08d29e7151cdcaf519aae67bb4bffeb7593ed596
+Author: David Guttman <david@davidguttman.com>
+Date:   Thu Oct 3 16:34:47 2019 -0700
+
+    chore: update deps
+
+commit 744a0f1a5ca3566115320f62c23d76214566f7b5
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Mar 5 09:08:50 2018 -0800
+
+    docs: update readme for git challenge
+
+commit 6de04176b50911db13d6cf46d30e1e6b3629bcff
+Author: David Guttman <david@davidguttman.com>
+Date:   Wed Sep 20 16:11:45 2017 -0700
+
+    fix: change db path to project folder (#21)
+
+    closes #21
+
+commit 8722c121965408c2dd9c76e8f9a73f54ba3f92b9
+Author: David Guttman <david@davidguttman.com>
+Date:   Wed Sep 20 16:08:56 2017 -0700
+
+    feat: log request auth info (#19)
+
+    closes #19
+
+commit 30cdbf2e2c57155f6f70225a3164b663ae18a6c5
+Author: David Guttman <david@davidguttman.com>
+Date:   Wed Sep 20 16:04:55 2017 -0700
+
+    feat: add 401 status code for unauthorized requests (#17)
+
+commit 3f2732dfc0ea3b0079fc542b609ed814b46b0766
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Sep 18 15:22:11 2017 -0700
+
+    fix: remove extra dep check (#15)
+
+commit 3c34209a6c838e306ff0dc6c31edc4a946f9049f
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Sep 18 15:13:22 2017 -0700
+
+    feat: add authorization to model endpoints (#13)
+
+commit 09e0d04a629bad8f565e4db2a45c5d66a90d61b1
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Sep 18 14:46:13 2017 -0700
+
+    feat: add CORS support (#11)
+
+commit d31a12829b1655c9178f3b81309842f64ef8605c
+Author: David Guttman <david@davidguttman.com>
+Date:   Mon Sep 18 14:37:04 2017 -0700
+```
